@@ -5,113 +5,504 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="سياسة الخصوصية لتطبيق المهندس للطباعة - Privacy Policy for Al Mohandis Printing App">
   <title>سياسة الخصوصية | المهندس للطباعة</title>
+
   <style>
-    :root { color-scheme: light; --ink:#172033; --muted:#596579; --line:#e5e9f0; --brand:#174ea6; --bg:#f5f7fb; }
-    * { box-sizing:border-box; }
-    body { margin:0; background:var(--bg); color:var(--ink); font-family:Tahoma,Arial,sans-serif; line-height:1.85; }
-    header { background:linear-gradient(135deg,#123b78,#1b65b8); color:#fff; padding:42px 20px; text-align:center; }
-    header h1 { margin:0 0 8px; font-size:clamp(25px,4vw,36px); }
-    header p { margin:0; opacity:.92; }
-    main { width:min(920px,calc(100% - 28px)); margin:28px auto 48px; }
-    .toolbar { display:flex; justify-content:center; gap:10px; margin-bottom:18px; }
-    button { border:1px solid var(--line); background:#fff; color:var(--brand); border-radius:9px; padding:9px 16px; font-size:15px; cursor:pointer; }
-    button.active { background:var(--brand); color:#fff; border-color:var(--brand); }
-    article { background:#fff; border:1px solid var(--line); border-radius:16px; padding:clamp(20px,4vw,38px); box-shadow:0 8px 28px rgba(20,40,80,.05); }
-    h2 { color:var(--brand); font-size:21px; margin:26px 0 8px; }
-    h2:first-of-type { margin-top:12px; }
-    p,li { color:#273449; }
-    ul { padding-inline-start:24px; }
-    .meta { color:var(--muted); font-size:14px; }
-    a { color:var(--brand); overflow-wrap:anywhere; }
-    footer { text-align:center; color:var(--muted); font-size:13px; padding:0 16px 30px; }
-    [hidden] { display:none !important; }
-    html[lang="en"] body { font-family:Arial,Helvetica,sans-serif; }
-    html[lang="en"] main { direction:ltr; }
-    html[lang="en"] article { text-align:left; }
-    html[lang="en"] ul { padding-left:24px; padding-right:0; }
+    :root {
+      color-scheme: light;
+      --ink: #172033;
+      --muted: #596579;
+      --line: #e5e9f0;
+      --brand: #174ea6;
+      --bg: #f5f7fb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Tahoma, Arial, sans-serif;
+      line-height: 1.85;
+    }
+
+    header {
+      background: linear-gradient(135deg, #123b78, #1b65b8);
+      color: #fff;
+      padding: 42px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(25px, 4vw, 36px);
+    }
+
+    header p {
+      margin: 0;
+      color: #fff;
+      opacity: 1;
+      font-size: 17px;
+    }
+
+    main {
+      width: min(920px, calc(100% - 28px));
+      margin: 28px auto 48px;
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    button {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--brand);
+      border-radius: 9px;
+      padding: 9px 16px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    button.active {
+      background: var(--brand);
+      color: #fff;
+      border-color: var(--brand);
+    }
+
+    article {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: clamp(20px, 4vw, 38px);
+      box-shadow: 0 8px 28px rgba(20, 40, 80, .05);
+    }
+
+    h2 {
+      color: var(--brand);
+      font-size: 21px;
+      margin: 26px 0 8px;
+    }
+
+    h2:first-of-type {
+      margin-top: 12px;
+    }
+
+    p, li {
+      color: #273449;
+    }
+
+    ul {
+      padding-inline-start: 24px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    a {
+      color: var(--brand);
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      padding: 0 16px 30px;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    html[lang="en"] body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html[lang="en"] main {
+      direction: ltr;
+    }
+
+    html[lang="en"] article {
+      text-align: left;
+    }
+
+    html[lang="en"] ul {
+      padding-left: 24px;
+      padding-right: 0;
+    }
   </style>
 </head>
+
 <body>
+
 <header>
   <h1 id="page-title">سياسة الخصوصية</h1>
   <p id="app-title">تطبيق المهندس للطباعة</p>
 </header>
+
 <main>
+
   <div class="toolbar" aria-label="Language selection">
     <button id="ar-btn" class="active" type="button">العربية</button>
     <button id="en-btn" type="button">English</button>
   </div>
+
+  <!-- Arabic Privacy Policy -->
   <article id="arabic">
-    <p class="meta"><strong>تاريخ آخر تحديث:</strong> 14 نوفمبر 2026</p>
-    <p>نحن في تطبيق المهندس للطباعة نحترم خصوصية المستخدمين. توضح هذه السياسة أنواع البيانات التي قد تتم معالجتها عند استخدام التطبيق، وأغراض استخدامها، والخيارات المتاحة للمستخدمين.</p>
+
+    <p class="meta">
+      <strong>تاريخ آخر تحديث:</strong> 14 نوفمبر 2026
+    </p>
+
+    <p>
+      نحن في تطبيق المهندس للطباعة نحترم خصوصية المستخدمين.
+      توضح هذه السياسة أنواع البيانات التي قد تتم معالجتها عند
+      استخدام التطبيق، وأغراض استخدامها، والخيارات المتاحة للمستخدمين.
+    </p>
+
     <h2>1. البيانات التي قد نجمعها</h2>
-    <p><strong>بيانات الحساب:</strong> الاسم، والبريد الإلكتروني، ورقم الهاتف أو بيانات التواصل المرتبطة بالحساب.</p>
-    <p><strong>بيانات الطلبات:</strong> ملفات PDF والصور والمستندات التي يرفعها المستخدم للطباعة، وخيارات الطباعة، وتفاصيل الطلبات، والأسعار والفواتير والتقييمات.</p>
-    <p><strong>بيانات الموقع:</strong> قد يطلب التطبيق إذن الوصول إلى الموقع الجغرافي عند استخدام ميزة تحديد موقع التوصيل، وذلك للمساعدة في تحديد عنوان التسليم.</p>
-    <p><strong>بيانات الجهاز والإشعارات:</strong> قد تتم معالجة رمز إشعارات Firebase Cloud Messaging (FCM) وبعض معلومات الجهاز اللازمة لتشغيل الإشعارات.</p>
+
+    <p>
+      <strong>بيانات الحساب:</strong>
+      الاسم، والبريد الإلكتروني، ورقم الهاتف أو بيانات التواصل المرتبطة بالحساب.
+    </p>
+
+    <p>
+      <strong>بيانات الطلبات:</strong>
+      ملفات PDF والصور والمستندات التي يرفعها المستخدم للطباعة،
+      وخيارات الطباعة، وتفاصيل الطلبات، والأسعار والفواتير والتقييمات.
+    </p>
+
+    <p>
+      <strong>بيانات الموقع:</strong>
+      قد يطلب التطبيق إذن الوصول إلى الموقع الجغرافي عند استخدام
+      ميزة تحديد موقع التوصيل، وذلك للمساعدة في تحديد عنوان التسليم.
+    </p>
+
+    <p>
+      <strong>بيانات الجهاز والإشعارات:</strong>
+      قد تتم معالجة رمز إشعارات Firebase Cloud Messaging (FCM)
+      وبعض معلومات الجهاز اللازمة لتشغيل الإشعارات.
+    </p>
+
     <h2>2. كيفية استخدام البيانات</h2>
-    <ul><li>إنشاء حساب المستخدم وإدارته.</li><li>استقبال طلبات الطباعة وتنفيذها.</li><li>حساب تكلفة الطلب وإعداد الفواتير.</li><li>تحديد موقع التوصيل ومتابعة الطلب.</li><li>إرسال إشعارات متعلقة بالطلبات.</li><li>معالجة التقييمات وتقديم الدعم الفني.</li><li>حماية التطبيق وتحسين خدماته.</li></ul>
+
+    <ul>
+      <li>إنشاء حساب المستخدم وإدارته.</li>
+      <li>استقبال طلبات الطباعة وتنفيذها.</li>
+      <li>حساب تكلفة الطلب وإعداد الفواتير.</li>
+      <li>تحديد موقع التوصيل ومتابعة الطلب.</li>
+      <li>إرسال إشعارات متعلقة بالطلبات.</li>
+      <li>معالجة التقييمات وتقديم الدعم الفني.</li>
+      <li>حماية التطبيق وتحسين خدماته.</li>
+    </ul>
+
     <h2>3. الخدمات والأطراف الخارجية</h2>
-    <p>قد يستخدم التطبيق خدمات تقنية من أطراف خارجية لتشغيل وظائفه، ومنها:</p>
-    <ul><li><strong>Supabase:</strong> للمصادقة وقاعدة البيانات والخدمات الخلفية.</li><li><strong>Firebase Cloud Messaging:</strong> لإرسال إشعارات التطبيق.</li><li><strong>OpenStreetMap:</strong> لتوفير بيانات الخرائط، إذا كانت مستخدمة في ميزة الموقع.</li></ul>
-    <p>قد تعالج هذه الجهات البيانات اللازمة لتقديم خدماتها وفقًا لشروطها وسياساتها. لا نبيع البيانات الشخصية للمستخدمين لأغراض إعلانية.</p>
+
+    <p>
+      قد يستخدم التطبيق خدمات تقنية من أطراف خارجية لتشغيل وظائفه، ومنها:
+    </p>
+
+    <ul>
+      <li>
+        <strong>Supabase:</strong>
+        للمصادقة وقاعدة البيانات والخدمات الخلفية.
+      </li>
+
+      <li>
+        <strong>Firebase Cloud Messaging:</strong>
+        لإرسال إشعارات التطبيق.
+      </li>
+
+      <li>
+        <strong>OpenStreetMap:</strong>
+        لتوفير بيانات الخرائط، إذا كانت مستخدمة في ميزة الموقع.
+      </li>
+    </ul>
+
+    <p>
+      قد تعالج هذه الجهات البيانات اللازمة لتقديم خدماتها وفقًا لشروطها
+      وسياساتها. لا نبيع البيانات الشخصية للمستخدمين لأغراض إعلانية.
+    </p>
+
     <h2>4. حماية البيانات</h2>
-    <p>نتخذ تدابير تقنية وتنظيمية مناسبة للمساعدة في حماية البيانات من الوصول غير المصرح به أو الفقد أو التعديل أو الإفصاح. وتُستخدم وسائل اتصال آمنة مع الخدمات الخلفية حيثما كان ذلك مدعومًا. ومع ذلك، لا يمكن ضمان الأمان المطلق لأي نظام إلكتروني.</p>
+
+    <p>
+      نتخذ تدابير تقنية وتنظيمية مناسبة للمساعدة في حماية البيانات
+      من الوصول غير المصرح به أو الفقد أو التعديل أو الإفصاح.
+      وتُستخدم وسائل اتصال آمنة مع الخدمات الخلفية حيثما كان ذلك مدعومًا.
+      ومع ذلك، لا يمكن ضمان الأمان المطلق لأي نظام إلكتروني.
+    </p>
+
     <h2>5. الاحتفاظ بالبيانات</h2>
-    <p>نحتفظ بالبيانات للمدة اللازمة لتقديم الخدمات وإدارة الطلبات والوفاء بالالتزامات القانونية والتشغيلية ذات الصلة.</p>
+
+    <p>
+      نحتفظ بالبيانات للمدة اللازمة لتقديم الخدمات وإدارة الطلبات
+      والوفاء بالالتزامات القانونية والتشغيلية ذات الصلة.
+    </p>
+
     <h2>6. حذف الحساب والبيانات</h2>
-    <p>يمكن للمستخدم طلب حذف حسابه والبيانات المرتبطة به من خلال ميزة حذف الحساب داخل التطبيق، إن كانت متاحة، أو التواصل معنا عبر البريد الإلكتروني التالي. يرجى ذكر البريد الإلكتروني المرتبط بالحساب لتسهيل التحقق من الطلب:</p>
-    <p><strong>البريد الإلكتروني:</strong> <a href="mailto:shryfb935@gmail.com">shryfb935@gmail.com</a></p>
-    <p>قد نحتفظ ببعض المعلومات عندما يكون ذلك مطلوبًا أو مسموحًا به لأسباب قانونية أو محاسبية أو تشغيلية مشروعة.</p>
+
+    <p>
+      يمكن للمستخدم طلب حذف حسابه والبيانات المرتبطة به من خلال
+      ميزة حذف الحساب داخل التطبيق، إن كانت متاحة، أو التواصل معنا
+      عبر البريد الإلكتروني التالي. يرجى ذكر البريد الإلكتروني
+      المرتبط بالحساب لتسهيل التحقق من الطلب:
+    </p>
+
+    <p>
+      <strong>البريد الإلكتروني:</strong>
+      <a href="mailto:shryfb935@gmail.com">shryfb935@gmail.com</a>
+    </p>
+
+    <p>
+      قد نحتفظ ببعض المعلومات عندما يكون ذلك مطلوبًا أو مسموحًا به
+      لأسباب قانونية أو محاسبية أو تشغيلية مشروعة.
+    </p>
+
     <h2>7. أذونات التطبيق</h2>
-    <p>قد يطلب التطبيق أذونات للوصول إلى الموقع أو الملفات والصور أو إرسال الإشعارات، بحسب الوظائف التي يستخدمها المستخدم. يمكن إدارة الأذونات من إعدادات الجهاز، وقد يؤدي تعطيل بعضها إلى عدم عمل بعض الميزات.</p>
+
+    <p>
+      قد يطلب التطبيق أذونات للوصول إلى الموقع أو الملفات والصور
+      أو إرسال الإشعارات، بحسب الوظائف التي يستخدمها المستخدم.
+      يمكن إدارة الأذونات من إعدادات الجهاز، وقد يؤدي تعطيل بعضها
+      إلى عدم عمل بعض الميزات.
+    </p>
+
     <h2>8. خصوصية الأطفال</h2>
-    <p>التطبيق غير موجه عمدًا للأطفال دون السن المسموح به قانونًا، ولا نقصد جمع بياناتهم الشخصية دون الموافقات اللازمة. إذا علمنا بوجود جمع غير مناسب لبيانات طفل، فسنتخذ الإجراءات المناسبة.</p>
+
+    <p>
+      التطبيق غير موجه عمدًا للأطفال دون السن المسموح به قانونًا،
+      ولا نقصد جمع بياناتهم الشخصية دون الموافقات اللازمة.
+      إذا علمنا بوجود جمع غير مناسب لبيانات طفل، فسنتخذ الإجراءات المناسبة.
+    </p>
+
     <h2>9. التعديلات على السياسة</h2>
-    <p>قد نحدّث هذه السياسة من وقت لآخر. سيتم نشر النسخة المحدثة على هذا الرابط مع تعديل تاريخ آخر تحديث.</p>
+
+    <p>
+      قد نحدّث هذه السياسة من وقت لآخر.
+      سيتم نشر النسخة المحدثة على هذا الرابط مع تعديل تاريخ آخر تحديث.
+    </p>
+
     <h2>10. التواصل معنا</h2>
-    <p>للاستفسارات المتعلقة بالخصوصية أو البيانات أو حذف الحساب، تواصل معنا عبر:</p>
-    <p><strong>المهندس للطباعة:</strong> <a href="mailto:shryfb935@gmail.com">shryfb935@gmail.com</a></p>
+
+    <p>
+      للاستفسارات المتعلقة بالخصوصية أو البيانات أو حذف الحساب،
+      تواصل معنا عبر:
+    </p>
+
+    <p>
+      <strong>المهندس للطباعة:</strong>
+      <a href="mailto:shryfb935@gmail.com">shryfb935@gmail.com</a>
+    </p>
+
   </article>
+
+  <!-- English Privacy Policy -->
   <article id="english" hidden>
-    <p class="meta"><strong>Last updated:</strong> November 14, 2026</p>
-    <p>Al Mohandis Printing respects users' privacy. This policy explains the types of information that may be processed when you use the application, the purposes for which it is used, and the choices available to users.</p>
+
+    <p class="meta">
+      <strong>Last updated:</strong> November 14, 2026
+    </p>
+
+    <p>
+      Al Mohandis Printing respects users' privacy.
+      This policy explains the types of information that may be
+      processed when you use the application, the purposes for which
+      it is used, and the choices available to users.
+    </p>
+
     <h2>1. Information We May Collect</h2>
-    <p><strong>Account information:</strong> Name, email address, phone number, or contact details associated with the account.</p>
-    <p><strong>Order information:</strong> PDF files, images, and documents uploaded for printing; selected printing options; order details; prices; invoices; and ratings.</p>
-    <p><strong>Location information:</strong> The app may request location permission when you use delivery-location features to help identify the delivery address.</p>
-    <p><strong>Device and notification information:</strong> The app may process a Firebase Cloud Messaging (FCM) token and certain device information needed to deliver notifications.</p>
+
+    <p>
+      <strong>Account information:</strong>
+      Name, email address, phone number, or contact details
+      associated with the account.
+    </p>
+
+    <p>
+      <strong>Order information:</strong>
+      PDF files, images, and documents uploaded for printing;
+      selected printing options; order details; prices; invoices;
+      and ratings.
+    </p>
+
+    <p>
+      <strong>Location information:</strong>
+      The app may request location permission when you use
+      delivery-location features to help identify the delivery address.
+    </p>
+
+    <p>
+      <strong>Device and notification information:</strong>
+      The app may process a Firebase Cloud Messaging (FCM) token
+      and certain device information needed to deliver notifications.
+    </p>
+
     <h2>2. How We Use Information</h2>
-    <ul><li>Create and manage user accounts.</li><li>Receive and process printing orders.</li><li>Calculate order costs and prepare invoices.</li><li>Identify delivery locations and track orders.</li><li>Send order-related notifications.</li><li>Process ratings and provide customer support.</li><li>Protect and improve the application and its services.</li></ul>
+
+    <ul>
+      <li>Create and manage user accounts.</li>
+      <li>Receive and process printing orders.</li>
+      <li>Calculate order costs and prepare invoices.</li>
+      <li>Identify delivery locations and track orders.</li>
+      <li>Send order-related notifications.</li>
+      <li>Process ratings and provide customer support.</li>
+      <li>Protect and improve the application and its services.</li>
+    </ul>
+
     <h2>3. Third-Party Services</h2>
-    <p>The application may use third-party technology services to operate its features, including:</p>
-    <ul><li><strong>Supabase:</strong> Authentication, database, and backend services.</li><li><strong>Firebase Cloud Messaging:</strong> Delivery of application notifications.</li><li><strong>OpenStreetMap:</strong> Map data, if used by the location feature.</li></ul>
-    <p>These providers may process information as needed to provide their services, subject to their own terms and policies. We do not sell users' personal information for advertising purposes.</p>
+
+    <p>
+      The application may use third-party technology services
+      to operate its features, including:
+    </p>
+
+    <ul>
+      <li>
+        <strong>Supabase:</strong>
+        Authentication, database, and backend services.
+      </li>
+
+      <li>
+        <strong>Firebase Cloud Messaging:</strong>
+        Delivery of application notifications.
+      </li>
+
+      <li>
+        <strong>OpenStreetMap:</strong>
+        Map data, if used by the location feature.
+      </li>
+    </ul>
+
+    <p>
+      These providers may process information as needed to provide
+      their services, subject to their own terms and policies.
+      We do not sell users' personal information for advertising purposes.
+    </p>
+
     <h2>4. Data Security</h2>
-    <p>We use appropriate technical and organizational measures to help protect information against unauthorized access, loss, alteration, or disclosure. Secure connections are used with backend services where supported. However, no electronic system can guarantee absolute security.</p>
+
+    <p>
+      We use appropriate technical and organizational measures
+      to help protect information against unauthorized access,
+      loss, alteration, or disclosure.
+      Secure connections are used with backend services where supported.
+      However, no electronic system can guarantee absolute security.
+    </p>
+
     <h2>5. Data Retention</h2>
-    <p>We retain information for as long as necessary to provide our services, manage orders, and meet relevant legal and operational obligations.</p>
+
+    <p>
+      We retain information for as long as necessary to provide
+      our services, manage orders, and meet relevant legal
+      and operational obligations.
+    </p>
+
     <h2>6. Account and Data Deletion</h2>
-    <p>Users may request deletion of their account and associated data through the in-app account deletion feature, if available, or by contacting us at the email below. Please include the email address associated with your account so we can verify the request.</p>
-    <p><strong>Email:</strong> <a href="mailto:shryfb935@gmail.com">shryfb935@gmail.com</a></p>
-    <p>We may retain certain information where required or permitted for legitimate legal, accounting, or operational reasons.</p>
+
+    <p>
+      Users may request deletion of their account and associated data
+      through the in-app account deletion feature, if available,
+      or by contacting us at the email below.
+      Please include the email address associated with your account
+      so we can verify the request.
+    </p>
+
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:shryfb935@gmail.com">shryfb935@gmail.com</a>
+    </p>
+
+    <p>
+      We may retain certain information where required or permitted
+      for legitimate legal, accounting, or operational reasons.
+    </p>
+
     <h2>7. App Permissions</h2>
-    <p>Depending on the features you use, the application may request permission to access location, files or photos, or send notifications. You can manage permissions in your device settings. Disabling certain permissions may affect some app features.</p>
+
+    <p>
+      Depending on the features you use, the application may request
+      permission to access location, files or photos, or send notifications.
+      You can manage permissions in your device settings.
+      Disabling certain permissions may affect some app features.
+    </p>
+
     <h2>8. Children's Privacy</h2>
-    <p>The application is not intentionally directed to children below the age permitted by applicable law, and we do not intend to collect their personal information without required consent. If we become aware of inappropriate collection of a child's information, we will take appropriate steps.</p>
+
+    <p>
+      The application is not intentionally directed to children below
+      the age permitted by applicable law, and we do not intend to
+      collect their personal information without required consent.
+      If we become aware of inappropriate collection of a child's
+      information, we will take appropriate steps.
+    </p>
+
     <h2>9. Changes to This Policy</h2>
-    <p>We may update this policy from time to time. The updated version will be published at this URL along with a revised update date.</p>
+
+    <p>
+      We may update this policy from time to time.
+      The updated version will be published at this URL
+      along with a revised update date.
+    </p>
+
     <h2>10. Contact Us</h2>
-    <p>For questions about privacy, personal information, or account deletion, contact:</p>
-    <p><strong>Al Mohandis Printing:</strong> <a href="mailto:shryfb935@gmail.com">shryfb935@gmail.com</a></p>
+
+    <p>
+      For questions about privacy, personal information,
+      or account deletion, contact:
+    </p>
+
+    <p>
+      <strong>Al Mohandis Printing:</strong>
+      <a href="mailto:shryfb935@gmail.com">shryfb935@gmail.com</a>
+    </p>
+
   </article>
+
 </main>
-<footer>© Al Mohandis Printing</footer>
+
+<footer>
+  © Al Mohandis Printing
+</footer>
+
 <script>
-  const arBtn=document.getElementById('ar-btn'), enBtn=document.getElementById('en-btn');
-  const ar=document.getElementById('arabic'), en=document.getElementById('english');
-  function setLang(lang){const isAr=lang==='ar'; document.documentElement.lang=lang; document.documentElement.dir=isAr?'rtl':'ltr'; ar.hidden=!isAr; en.hidden=isAr; arBtn.classList.toggle('active',isAr); enBtn.classList.toggle('active',!isAr); document.getElementById('page-title').textContent=isAr?'سياسة الخصوصية':'Privacy Policy'; document.getElementById('app-title').textContent=isAr?'تطبيق المهندس للطباعة':'Al Mohandis Printing App';}
-  arBtn.addEventListener('click',()=>setLang('ar')); enBtn.addEventListener('click',()=>setLang('en'));
+  const arBtn = document.getElementById('ar-btn');
+  const enBtn = document.getElementById('en-btn');
+
+  const ar = document.getElementById('arabic');
+  const en = document.getElementById('english');
+
+  function setLang(lang) {
+    const isAr = lang === 'ar';
+
+    document.documentElement.lang = lang;
+    document.documentElement.dir = isAr ? 'rtl' : 'ltr';
+
+    ar.hidden = !isAr;
+    en.hidden = isAr;
+
+    arBtn.classList.toggle('active', isAr);
+    enBtn.classList.toggle('active', !isAr);
+
+    document.getElementById('page-title').textContent =
+      isAr ? 'سياسة الخصوصية' : 'Privacy Policy';
+
+    document.getElementById('app-title').textContent =
+      isAr ? 'تطبيق المهندس للطباعة' : 'Al Mohandis Printing App';
+  }
+
+  arBtn.addEventListener('click', () => setLang('ar'));
+  enBtn.addEventListener('click', () => setLang('en'));
 </script>
+
 </body>
 </html>
